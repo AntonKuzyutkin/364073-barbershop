@@ -1,0 +1,33 @@
+body {
+	font-family: PTSans, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1.7;
+	color: #000000;
+	background: #cccccc;
+}
+.features .features-name {
+	font-size: 30px;
+	line-height: 1.4;
+}
+.index-content .index-content-title,
+.treatingThings .treatingThingsTitle,
+.previewItem .previewItemTitle {
+	font-size: 30px;
+	line-height: 1.4;
+}
+.makers .makersTitle,
+.groupsGoods .groupsGoodsTitle,
+.itemDesc .itemDescContents {
+	font-size: 24px;
+	line-height: 1.25;
+}
+.item .itemTitle {
+	font-size: 14px;
+	line-height: 1.28;	
+}
+.itemDesc .isAvailable,
+.itemDesc .itemDescCode {
+	font-size: 24px;
+	line-height: 1.71;
+}
