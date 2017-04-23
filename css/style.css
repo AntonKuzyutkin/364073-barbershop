@@ -6,6 +6,156 @@ body {
 	color: #000000;
 	background: #cccccc;
 }
+
+.mainHeader {
+	background-color: #000000;
+	font-size: 0;
+}
+.mainNav {
+	width: 810px;
+	outline: 1px solid white;
+	height: 72px;
+	float: left;
+
+}
+.mainNav .topLogo {
+	margin-right: 20px;
+	height: 72px;
+	outline: 1px solid white;
+	float: left;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.mainNav .topLogo img {
+	padding: 24px 0;
+}
+.mainNav li {
+	display: inline-block;
+	font-size: 14px;
+	outline: 1px solid white;
+
+}
+.mainNav li a,
+.userArea a {
+	line-height: 72px;
+	text-align: center;
+	padding: 28px 10px;
+	outline: 1px solid white;
+}
+.mainHeader .userArea {
+	float: right;
+	font-size: 14px;
+}
+.mainHeader {
+	margin-bottom: 60px;
+}
+.previewItem .previewItemTitle {
+	margin-bottom: 32px;
+}
+.breadcrumbs {
+	font-size: 0;
+}
+.breadcrumbs li {
+	display: inline-block;
+	padding-left: 10px;
+	font-size: 14px;
+}
+.breadcrumbs a {
+	font-size: 14px;
+}
+.previewItem .leftCol {
+	float: left;
+	width: 460px;
+}
+.previewItem .rightCol {
+	margin-left: 540px;
+}
+.mainFooter {
+	clear: both;
+	font-size: 0;
+	padding-top: 60px;
+	padding-bottom: 40px;
+	outline: 1px solid black; 
+}
+.mainFooter .address {
+	width: 320px;
+	margin-right: 60px;
+	outline: 1px solid black;
+}
+.mainFooter .socialBox {
+	width: 260px;
+	margin-right: 140px;
+	font-size: 0;
+	outline: 1px solid black;
+	text-align: center;
+
+}
+
+.mainFooter .socialBox a {
+	font-size: 14px;
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	outline: 1px solid black;
+	margin-left: 10px;
+	line-height: 45px;
+	text-align: center;
+}
+.mainFooter .developer {
+	width: 160px;
+	outline: 1px solid black;
+	
+}
+.mfItem {
+	display: inline-block;
+	font-size: 14px;
+	vertical-align: top;
+}
+.treatingThings .leftCol {
+	outline: 1px solid black;
+	width: 220px;
+	height: 575px;
+	float: left;
+	
+}
+.treatingThings .rightCol {
+	margin-left: 240px;
+	width: 700px;
+	height: 685px;
+}
+.treatingThings .item {
+	outline: 1px solid black;
+	width: 220px;
+	height: 287px;
+	display: inline-block;
+	margin-right: -4px;
+	margin-bottom: 20px;
+}
+.treatingThings .cols {
+	margin-bottom: 45px;
+}
+
+.treatingThings .pageNavigation li{
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	outline: 1px solid black;
+	line-height: 45px;
+	text-align: center;
+}
+.treatingThings .pageNavigation a{
+	background-color: green;
+	display: block;
+	
+}
+.treatingThings .item:not(:nth-of-type(3n+1)) {
+	margin-left: 20px;
+}
+
 .features .features-name {
 	font-size: 30px;
 	line-height: 1.4;
@@ -22,12 +172,46 @@ body {
 	font-size: 24px;
 	line-height: 1.25;
 }
+.itemDesc {
+	outline: 1px solid white;
+}
 .item .itemTitle {
 	font-size: 14px;
 	line-height: 1.28;	
 }
 .itemDesc .isAvailable,
 .itemDesc .itemDescCode {
-	font-size: 24px;
+	font-size: 14px;
 	line-height: 1.71;
+}
+.itemDesc .itemDescContents {
+	display: block;
+}
+.itemDesc .itemDescCode  {
+	float: right;
+}
+.mainWrapper {
+	outline: 1px solid green;
+	margin: 0 auto;
+}
+.previewItem .leftCol {
+		font-size: 0;
+}
+.leftCol .bigImage {
+	margin-bottom: 20px;
+}
+.leftCol .smallImage:not(:last-of-type) {
+	margin-right: 20px;
+}
+.leftCol .smallImage {
+	margin-bottom: 50px;
+}
+
+.centeringUnit {
+	outline: 1px solid white;
+	width: 940px;
+	margin: 0 auto;
+	padding-left: 3px;
+	padding-right: 10px;
+	padding-left: 10px;
 }
